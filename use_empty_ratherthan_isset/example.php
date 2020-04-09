@@ -1,11 +1,11 @@
-<?php
-
-echo "<h1>Use the <code>!empty()</code> function rather than  <code>isset()</code></h1>
+<h1>Use the <code>!empty()</code> function rather than  <code>isset()</code></h1>
 <p>
 <strong>Le langage PHP est un langage typé !</strong> Certe faiblement, puisque le typage n'intervient que pour des tâches de bas niveau.<br>
 La fonction <code>isset()</code> est toujours vraie sauf pour <code>NULL</code>, elle ne sert donc à rien !<br>
 En revanche, <code>!empty()</code> réagit de la même manière qu'une condition ordinaire et permet de ne pas avoir d'erreur :
-</p>";
+</p>
+
+<?php
 
 function br() {
 	echo "<br />";
