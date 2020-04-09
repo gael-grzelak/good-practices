@@ -1,7 +1,4 @@
-# Bonnes pratiques
-Dépot consacré aux bonnes pratiques de développement.
-
-## Use the `!empty()` function rather than  `isset()`
+# Use the `!empty()` function rather than  `isset()`
 **Le langage PHP est un langage typé !** Certe faiblement, puisque le typage n'intervient que pour des tâches de bas niveau.<br>
 La fonction `isset()` est toujours vraie sauf pour `NULL`, elle ne sert donc à rien !<br>
 En revanche, `!empty()` réagit de la même manière qu'une condition ordinaire et permet de ne pas avoir d'erreur :
