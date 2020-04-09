@@ -3,6 +3,8 @@
 La fonction `isset()` est toujours vraie sauf pour `NULL`, elle ne sert donc à rien !<br>
 En revanche, `!empty()` réagit de la même manière qu'une condition ordinaire et permet de ne pas avoir d'erreur :
 
+[Lien vers le code d'exemple PHP](example.php)
+
 Test sur **`int(0)`**<br>
 Condition ordinaire : **`false`**<br>
 !empty() : **`false`** ✅<br>
