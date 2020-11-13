@@ -1,7 +1,7 @@
 # Use the `!empty()` function rather than  `isset()`
-**Le langage PHP est un langage typé !** Certe faiblement, puisque le typage n'intervient que pour des tâches de bas niveau.<br>
-La fonction `isset()` est toujours vraie sauf pour `NULL`, elle ne sert donc à rien !<br>
-En revanche, `!empty()` réagit de la même manière qu'une condition ordinaire et permet de ne pas avoir d'erreur :
+**[PHP](https://fr.wikipedia.org/wiki/PHP) est un langage typé !** Certes faiblement, puisqu'il s'agit d'un langage de haut niveau alors que le typage n'intervient que pour des tâches de bas niveau.<br>
+La fonction `isset()` retourne toujours `true` sauf lorsque le paramètre d'entré fournit vaut `NULL`. Cette fonction ne sert donc à rien !<br>
+En revanche, la fonction `!empty()` se comporte de la même manière qu'une condition ordinaire et permet de ne pas avoir d'erreur :
 
 [Lien vers le code d'exemple PHP](example.php)
 
